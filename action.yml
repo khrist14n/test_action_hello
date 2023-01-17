@@ -1,20 +1,13 @@
-name: 'test action hello'
-author: 'Christian Portilla Pauca'
-description: 'Imprime un mensaje'
- 
+name: "test action hello"
+author: "Christian Portilla Pauca"
+description: "Imprime un mensaje"
 inputs:
 	input_text:
-		description: 'Mensaje'
-		required: true
- 
+		description: "Mensaje"
+		required: true 
 outputs:
 	output_text:
-		description: 'Output'
-
+		description: "Output"
 runs:
-  using: 'node12'
-  main: 'src/main.js'
- 
-# branding:
-# 	icon: 'rotate-cw'
-# 	color: 'blue'
+  using: node12
+  main: src/main.js
