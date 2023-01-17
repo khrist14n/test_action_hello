@@ -1,5 +1,24 @@
 {
-  "devDependencies": {
-    "@actions/core": "^1.10.0"
+  "name": "test-action-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khrist14n/test_action_hello.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khrist14n/test_action_hello/issues"
+  },
+  "homepage": "https://github.com/khrist14n/test_action_hello#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
   }
 }
