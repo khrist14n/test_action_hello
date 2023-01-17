@@ -1,6 +1,5 @@
 name: 'test_action_hello'
 author: 'Christian Portilla Pauca'
-email: 'khrist14n@gmail.com'
 description: 'Imprime un mensaje'
  
 inputs:
